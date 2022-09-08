@@ -11,8 +11,8 @@ import tensorflow.compat.v2.feature_column as fc
 import tensorflow as tf
 
 
-dftrain = pd.read_csv('E:\PROGRAMMING\PYTHON\TENSORFLOW\linearRegression\\train.csv')
-dfeval = pd.read_csv('E:\PROGRAMMING\PYTHON\TENSORFLOW\linearRegression\\test.csv')
+dftrain = pd.read_csv('PATH_TO_TRAIN_CSV')
+dfeval = pd.read_csv('PATH_TO_TEST_CSV')
 y_train = dftrain.pop('survived')
 y_eval = dfeval.pop('survived')
 
